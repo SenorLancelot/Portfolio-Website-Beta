@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #000000;
+}
+
+.navbar-brand img {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.nav-right-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-right-items .btn {
+  margin: 5px;
+  background-color: white;
+}
+/*# sourceMappingURL=navbarstyle.css.map */

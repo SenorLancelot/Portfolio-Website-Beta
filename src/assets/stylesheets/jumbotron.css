@@ -1,0 +1,49 @@
+.jumbotron {
+  background-color: white;
+}
+
+.jumbo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.jumbo-container img {
+  height: 220px;
+  width: 220px;
+  border-radius: 8px;
+}
+
+.jumbo-container div {
+  margin-left: 15px;
+}
+
+.jumbo-container .ribbon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  color: white;
+  background-color: #000000;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.jumbo-container .ribbon img {
+  border-style: solid;
+  border-color: #000000;
+}
+/*# sourceMappingURL=jumbotron.css.map */
