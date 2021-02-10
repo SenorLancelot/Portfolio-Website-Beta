@@ -1,0 +1,11 @@
+.ribbon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+
+  .ribbon-media {
+    height: 180px;
+    width: 180px;
+  }
+}
