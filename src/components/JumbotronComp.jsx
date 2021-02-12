@@ -1,11 +1,11 @@
 import React from "react";
-import "../assets/stylesheets/jumbotron.css";
+import "../assets/stylesheets/styles.css";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
 function JumbotronComp() {
   return (
     <Jumbotron fluid>
-      <Container className="jumbo-container">
+      <div className="jumbo-container">
         <div className="ribbon">
           <div>
             <img src="pfp4-ConvertImage.jpg" alt="" />
@@ -18,7 +18,7 @@ function JumbotronComp() {
             Optio aut atque sit assumenda voluptate.
           </div>
         </div>
-      </Container>
+      </div>
     </Jumbotron>
   );
 }

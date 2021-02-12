@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100;200;300;400;500&display=swap");
 
 body {
-    font-family: 'Courgette', cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  color: #60F5D3;
+  background-color: #60F5D3;
 }

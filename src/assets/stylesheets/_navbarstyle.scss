@@ -1,0 +1,33 @@
+
+
+.navbar{
+  
+  display: flex;
+  justify-content: space-between;
+  background-color: $primarycolor;
+  color: $ternarycolor;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.container {
+  margin: 0;
+}
+.navbar-brand {
+  color: $ternarycolor;
+  img {
+    filter: invert(100%);
+  }
+}
+
+.nav-right-items {
+    display: flex;
+    margin-left: auto; 
+    .btn {
+        // margin-left: 5px;
+        background-color: $ternarycolor;
+
+    }
+}

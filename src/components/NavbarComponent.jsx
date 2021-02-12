@@ -1,22 +1,16 @@
 import { Button } from "react-bootstrap";
 import React from "react";
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 import "../assets/stylesheets/navbarstyle.css";
 
 function NavbarComponent() {
   return (
-    <Navbar bg="" variant="dark">
-      <Container>
+    <Navbar bg="" variant="">
+      {/* <div className="navbar-inner"> */}
         <div className="nav-left-items">
           <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src="/knighthelmet.png"
-              width="30"
-              height="30"
-              className="d-inline-block align-top "
-            />{" "}
+            
             Amarendra Shendkar
           </Navbar.Brand>
         </div>
@@ -31,7 +25,7 @@ function NavbarComponent() {
           <Button variant="">3</Button>
           </div>
         </div>
-      </Container>
+      {/* </div> */}
     </Navbar>
   );
 }
