@@ -1,7 +1,7 @@
 
 
 .jumbotron {
-  background-color: $ternarycolor;
+  background-color: $secondarycolor;
   padding-top: 54px;
   padding-bottom: 54px;
   margin-bottom: 0px;
@@ -18,7 +18,7 @@
   img {
     height: 220px;
     width: 220px;
-    border-radius: 8px;
+    border-radius: 0px;
   }
 
   div {
@@ -33,12 +33,13 @@
     // color: white;
     background-color: $primarycolor;
     margin: 0;
-    border-radius: 8px;
+    // border-radius: 8px;
 
     img {
-        
+        border: 0;
         border-style: solid;
-        border-color: $ternarycolor;
+        border-color: black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     }
 

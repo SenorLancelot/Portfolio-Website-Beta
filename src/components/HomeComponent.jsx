@@ -11,35 +11,43 @@ function HomeComponent() {
       <div className="skills-cards-container">
         <div className="card-container-top-left">
           <div className="main-card">
-            I am very proficient in XYZ. jk lmao. Unless
+            <h6>Title</h6>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex facilis
+            inventore deserunt, iure sapiente quam fugiat vel optio
+            consequuntur! Facere ex ut dicta error fuga. Quidem atque possimus
+            sit quisquam!
           </div>
-          <div className="sub-card">
-            logos for color
-          </div>
+          <div className="sub-card">logos for color</div>
         </div>
         <div className="card-container-top-right">
           <div className="main-card">
-            I am very proficient in XYZ. jk lmao. Unless
+          <h6>Title</h6>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex facilis
+            inventore deserunt, iure sapiente quam fugiat vel optio
+            consequuntur! Facere ex ut dicta error fuga. Quidem atque possimus
+            sit quisquam!
           </div>
-          <div className="sub-card">
-            logos for color
-          </div>
+          <div className="sub-card">logos for color</div>
         </div>
         <div className="card-container-bottom-left">
           <div className="main-card">
-            I am very proficient in XYZ. jk lmao. Unless
+          <h6>Title</h6>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex facilis
+            inventore deserunt, iure sapiente quam fugiat vel optio
+            consequuntur! Facere ex ut dicta error fuga. Quidem atque possimus
+            sit quisquam!
           </div>
-          <div className="sub-card">
-            logos for color
-          </div>
+          <div className="sub-card">logos for color</div>
         </div>
         <div className="card-container-bottom-right">
           <div className="main-card">
-            I am very proficient in XYZ. jk lmao. Unless
+          <h6>Title</h6>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex facilis
+            inventore deserunt, iure sapiente quam fugiat vel optio
+            consequuntur! Facere ex ut dicta error fuga. Quidem atque possimus
+            sit quisquam!
           </div>
-          <div className="sub-card">
-            logos for color
-          </div>
+          <div className="sub-card">logos for color</div>
         </div>
       </div>
     </div>

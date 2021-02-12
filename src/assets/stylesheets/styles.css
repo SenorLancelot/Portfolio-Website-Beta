@@ -5,8 +5,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #112240;
-  color: #60F5D3;
+  background-color: #0A192F;
+  color: white;
   padding-right: 10%;
   padding-left: 10%;
   padding-top: 8px;
@@ -18,7 +18,7 @@
 }
 
 .navbar-brand {
-  color: #60F5D3;
+  color: white;
 }
 
 .navbar-brand img {
@@ -34,11 +34,11 @@
 }
 
 .nav-right-items .btn {
-  background-color: #60F5D3;
+  background-color: white;
 }
 
 .jumbotron {
-  background-color: #60F5D3;
+  background-color: #09101B;
   padding-top: 54px;
   padding-bottom: 54px;
   margin-bottom: 0px;
@@ -62,7 +62,7 @@
 .jumbo-container img {
   height: 220px;
   width: 220px;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 .jumbo-container div {
@@ -80,14 +80,16 @@
       -ms-flex-align: center;
           align-items: center;
   height: 150px;
-  background-color: #112240;
+  background-color: #0A192F;
   margin: 0;
-  border-radius: 8px;
 }
 
 .jumbo-container .ribbon img {
+  border: 0;
   border-style: solid;
-  border-color: #60F5D3;
+  border-color: black;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .skills-container {
@@ -97,7 +99,7 @@
 }
 
 .skills-container .skills-heading {
-  background-color: #112240;
+  background-color: #0A192F;
   padding: 5px;
   margin-left: 40%;
   margin-right: 40%;
@@ -132,23 +134,33 @@
 }
 
 .skills-container .skills-cards-container .card-container-top-left .main-card {
-  height: 60%;
+  height: 100%;
   width: 70%;
-  background-color: #112240;
+  background-color: #0A192F;
   position: absolute;
-  border-radius: 8px;
   padding: 4px;
+  padding-right: 15%;
   top: 0px;
   left: 0px;
 }
 
 .skills-container .skills-cards-container .card-container-top-left .sub-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 30%;
   height: 100px;
   position: absolute;
-  background-color: #d89417;
-  border-radius: 8px;
-  bottom: 15%;
+  background-color: #0A192F;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  bottom: 54px;
   right: 15%;
 }
 
@@ -166,24 +178,34 @@
 }
 
 .skills-container .skills-cards-container .card-container-top-right .main-card {
-  height: 60%;
+  height: 100%;
   width: 70%;
-  background-color: #112240;
+  background-color: #0A192F;
   position: absolute;
-  border-radius: 8px;
   padding: 4px;
   text-align: right;
   top: 0px;
   right: 0px;
+  padding-left: 15%;
 }
 
 .skills-container .skills-cards-container .card-container-top-right .sub-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 30%;
   height: 100px;
   position: absolute;
-  background-color: #d89417;
-  border-radius: 8px;
-  bottom: 15%;
+  background-color: #0A192F;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  bottom: 54px;
   left: 15%;
 }
 
@@ -201,23 +223,33 @@
 }
 
 .skills-container .skills-cards-container .card-container-bottom-left .main-card {
-  height: 60%;
+  height: 100%;
   width: 70%;
-  background-color: #112240;
+  background-color: #0A192F;
   position: absolute;
-  border-radius: 8px;
   padding: 4px;
+  padding-right: 15%;
   bottom: 0px;
   left: 0px;
 }
 
 .skills-container .skills-cards-container .card-container-bottom-left .sub-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 30%;
   height: 100px;
   position: absolute;
-  background-color: #d89417;
-  border-radius: 8px;
-  top: 15%;
+  background-color: #0A192F;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 54px;
   right: 15%;
 }
 
@@ -235,24 +267,34 @@
 }
 
 .skills-container .skills-cards-container .card-container-bottom-right .main-card {
-  height: 60%;
+  height: 100%;
   width: 70%;
-  background-color: #112240;
+  background-color: #0A192F;
   position: absolute;
-  border-radius: 8px;
   padding: 4px;
+  padding-left: 15%;
   text-align: right;
   bottom: 0px;
   right: 0px;
 }
 
 .skills-container .skills-cards-container .card-container-bottom-right .sub-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 30%;
   height: 100px;
   position: absolute;
-  background-color: #d89417;
-  border-radius: 8px;
-  top: 15%;
+  background-color: #0A192F;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 54px;
   left: 15%;
 }
 /*# sourceMappingURL=styles.css.map */

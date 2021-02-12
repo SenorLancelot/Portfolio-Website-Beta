@@ -9,20 +9,28 @@
 }
 
 @mixin mainCard {
-  height: 60%;
+  height: 100%;
   width: 70%;
   background-color: $primarycolor;
   position: absolute;
-  border-radius: 8px;
+  // border-radius: 8px;
   padding: 4px;
+  
+  // border: 1px solid $ternarycolor;
+//   box-shadow: 0 4px 8px 0 $ternarycolor, 0 6px 20px 0 $ternarycolor;
 }
 
 @mixin subCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30%;
   height: 100px;
   position: absolute;
-  background-color: rgb(216, 148, 23);
-  border-radius: 8px;
+  background-color: $primarycolor;
+  // border-radius: 8px;
+  // border: 1px solid $ternarycolor;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .skills-container {
@@ -50,14 +58,15 @@
       @include cardContainer();
       .main-card {
         @include mainCard();
-
+        padding-right: 15%;
         top: 0px;
         left: 0px;
       }
       .sub-card {
         @include subCard();
-        bottom: 15%;
+        bottom: 54px;
         right: 15%;
+         
         
       }
     }
@@ -69,10 +78,11 @@
         text-align: right;
         top: 0px;
         right: 0px;
+        padding-left: 15%;
       }
       .sub-card {
         @include subCard();
-        bottom: 15%;
+        bottom: 54px;
         left: 15%;
         
       }
@@ -82,13 +92,13 @@
         @include cardContainer();
         .main-card {
           @include mainCard();
-            
+          padding-right: 15%;
           bottom: 0px;
           left: 0px;
         }
         .sub-card {
           @include subCard();
-          top: 15%;
+          top: 54px;
           right: 15%;
           
         }
@@ -98,13 +108,14 @@
         @include cardContainer();
         .main-card {
           @include mainCard();
+          padding-left: 15%;
           text-align: right;
           bottom: 0px;
           right: 0px;
         }
         .sub-card {
           @include subCard();
-          top: 15%;
+          top: 54px;
           left: 15%;
           
         }
