@@ -24,10 +24,24 @@
 
 .nav-right-items {
     display: flex;
-    margin-left: auto; 
-    .btn {
-        // margin-left: 5px;
-        background-color: $ternarycolor;
+    // margin-left: auto; 
+    // .btn {
+    //     // margin-left: 5px;
+    //     background-color: $ternarycolor;
 
+    // }
+    .nav-icon {
+      width: 40px;
+      height: 40px;
+    }
+
+    // #nav-btn {
+    //   background-color: $primarycolor;
+    //   width: 5%;
+    // }
+
+    .btn {
+
+      background-color: $primarycolor;
     }
 }

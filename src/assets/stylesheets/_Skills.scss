@@ -15,6 +15,11 @@
   position: absolute;
   // border-radius: 8px;
   padding: 4px;
+
+  .skill-title {
+    padding-bottom: 6px;
+    border-bottom: 1px groove white;
+  }
   
   // border: 1px solid $ternarycolor;
 //   box-shadow: 0 4px 8px 0 $ternarycolor, 0 6px 20px 0 $ternarycolor;
@@ -24,13 +29,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 30%;
-  height: 100px;
+  height: 50%;
   position: absolute;
   background-color: $primarycolor;
   // border-radius: 8px;
   // border: 1px solid $ternarycolor;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  .sklearn-icon{
+
+    height: 48px;
+    width: 89px;
+  }
+  .octave-icon{
+
+    height: 48px;
+    width: 48px;
+  }
 }
 
 .skills-container {
@@ -84,6 +101,8 @@
         @include subCard();
         bottom: 54px;
         left: 15%;
+
+        
         
       }
     }

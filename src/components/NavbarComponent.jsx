@@ -15,14 +15,14 @@ function NavbarComponent() {
           </Navbar.Brand>
         </div>
         <div className="nav-right-items">
-          <div id="navbar-button-1">
-          <Button variant="">1</Button>
+          <div id="navbar-button-1 nav-btn">
+          <Button variant=""><img className="nav-icon" src="https://img.icons8.com/nolan/64/new-contact.png"/></Button>
           </div>
-          <div id="navbar-button-2">
-          <Button variant="">2</Button>
+          <div id="navbar-button-2 nav-btn">
+          <Button variant=""><img className="nav-icon" src="https://img.icons8.com/nolan/64/project.png"/></Button>
           </div>
-          <div id="navbar-button-3">
-          <Button variant="">3</Button>
+          <div id="navbar-button-3 nav-btn">
+          <Button variant=""><img className="nav-icon" src="https://img.icons8.com/nolan/50/school.png"/></Button>
           </div>
         </div>
       {/* </div> */}

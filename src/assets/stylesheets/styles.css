@@ -30,11 +30,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: auto;
+}
+
+.nav-right-items .nav-icon {
+  width: 40px;
+  height: 40px;
 }
 
 .nav-right-items .btn {
-  background-color: white;
+  background-color: #0A192F;
 }
 
 .jumbotron {
@@ -92,6 +96,12 @@
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.jumbo-container .ribbon .jumbotext {
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 1px groove white;
+}
+
 .skills-container {
   padding-left: 10%;
   padding-right: 10%;
@@ -144,6 +154,11 @@
   left: 0px;
 }
 
+.skills-container .skills-cards-container .card-container-top-left .main-card .skill-title {
+  padding-bottom: 6px;
+  border-bottom: 1px groove white;
+}
+
 .skills-container .skills-cards-container .card-container-top-left .sub-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,14 +169,26 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 30%;
-  height: 100px;
+  height: 50%;
   position: absolute;
   background-color: #0A192F;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   bottom: 54px;
   right: 15%;
+}
+
+.skills-container .skills-cards-container .card-container-top-left .sub-card .sklearn-icon {
+  height: 48px;
+  width: 89px;
+}
+
+.skills-container .skills-cards-container .card-container-top-left .sub-card .octave-icon {
+  height: 48px;
+  width: 48px;
 }
 
 .skills-container .skills-cards-container .card-container-top-right {
@@ -189,6 +216,11 @@
   padding-left: 15%;
 }
 
+.skills-container .skills-cards-container .card-container-top-right .main-card .skill-title {
+  padding-bottom: 6px;
+  border-bottom: 1px groove white;
+}
+
 .skills-container .skills-cards-container .card-container-top-right .sub-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,14 +231,26 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 30%;
-  height: 100px;
+  height: 50%;
   position: absolute;
   background-color: #0A192F;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   bottom: 54px;
   left: 15%;
+}
+
+.skills-container .skills-cards-container .card-container-top-right .sub-card .sklearn-icon {
+  height: 48px;
+  width: 89px;
+}
+
+.skills-container .skills-cards-container .card-container-top-right .sub-card .octave-icon {
+  height: 48px;
+  width: 48px;
 }
 
 .skills-container .skills-cards-container .card-container-bottom-left {
@@ -233,6 +277,11 @@
   left: 0px;
 }
 
+.skills-container .skills-cards-container .card-container-bottom-left .main-card .skill-title {
+  padding-bottom: 6px;
+  border-bottom: 1px groove white;
+}
+
 .skills-container .skills-cards-container .card-container-bottom-left .sub-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,14 +292,26 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 30%;
-  height: 100px;
+  height: 50%;
   position: absolute;
   background-color: #0A192F;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   top: 54px;
   right: 15%;
+}
+
+.skills-container .skills-cards-container .card-container-bottom-left .sub-card .sklearn-icon {
+  height: 48px;
+  width: 89px;
+}
+
+.skills-container .skills-cards-container .card-container-bottom-left .sub-card .octave-icon {
+  height: 48px;
+  width: 48px;
 }
 
 .skills-container .skills-cards-container .card-container-bottom-right {
@@ -278,6 +339,11 @@
   right: 0px;
 }
 
+.skills-container .skills-cards-container .card-container-bottom-right .main-card .skill-title {
+  padding-bottom: 6px;
+  border-bottom: 1px groove white;
+}
+
 .skills-container .skills-cards-container .card-container-bottom-right .sub-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -288,13 +354,25 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 30%;
-  height: 100px;
+  height: 50%;
   position: absolute;
   background-color: #0A192F;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   top: 54px;
   left: 15%;
+}
+
+.skills-container .skills-cards-container .card-container-bottom-right .sub-card .sklearn-icon {
+  height: 48px;
+  width: 89px;
+}
+
+.skills-container .skills-cards-container .card-container-bottom-right .sub-card .octave-icon {
+  height: 48px;
+  width: 48px;
 }
 /*# sourceMappingURL=styles.css.map */
