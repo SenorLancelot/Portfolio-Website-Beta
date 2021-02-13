@@ -14,6 +14,7 @@
   padding-left: 10%;
   padding-right: 10%;
   width: 100%;
+  
 
   img {
     height: 220px;
@@ -34,11 +35,15 @@
     background-color: $primarycolor;
     margin: 0;
     // border-radius: 8px;
+    @include bottomBorderWhite();
+    
 
     img {
-        border: 0;
-        border-style: solid;
-        border-color: black;
+        // border: 1px;
+        // border-style: solid;
+        // border-color: white;
+        border-top: 1px solid white;
+        @include bottomBorderWhite();
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     }
@@ -46,7 +51,7 @@
     .jumbotext {
       padding-left: 20px;
       padding-right: 10px;
-      border-left: 1px groove white;
+      // border-left: 1px groove white;
     }
 
   }

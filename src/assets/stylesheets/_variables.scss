@@ -1,3 +1,9 @@
 $primarycolor: #0A192F;
 $secondarycolor: #09101B;
 $ternarycolor: white;
+
+@mixin bottomBorderWhite {
+
+    border-bottom: 1px solid gray;
+    
+}

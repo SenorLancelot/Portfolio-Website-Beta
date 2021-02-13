@@ -36,7 +36,7 @@ function HomeComponent() {
           <div className="skill-icon"><img src="https://img.icons8.com/color/48/000000/html-5.png"/></div>
             <div className="skill-icon"><img src="https://img.icons8.com/color/48/000000/css3.png"/></div>
             <div className="skill-icon"><img src="https://img.icons8.com/color/48/000000/javascript.png"/></div>
-            <div className="skill-icon"><img src="https://img.icons8.com/color/50/000000/react-native.png"/></div>
+            <div className="skill-icon"><img className="react-logo" src="/logo192.png"/></div>
           </div>
         </div>
         <div className="card-container-bottom-left">
@@ -63,7 +63,7 @@ function HomeComponent() {
             sit quisquam!
           </div>
           <div className="sub-card">
-            <div className="skill-icon"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></div>
+            <div className="skill-icon"><img className="figma-logo" src="https://i.pinimg.com/originals/a5/58/b4/a558b426cb8973523f37bbed94cf0f09.png" alt=""/></div>
             <div className="skill-icon"><img src="https://img.icons8.com/color/48/000000/linux.png"/></div>
             <div className="skill-icon"><img src="https://img.icons8.com/color/48/000000/git.png"/></div>
             <div className="skill-icon"><img src="https://img.icons8.com/fluent/48/000000/online-coding.png"/></div>

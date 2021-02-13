@@ -8,7 +8,7 @@ function JumbotronComp() {
       <div className="jumbo-container">
         <div className="ribbon">
           <div>
-            <img src="pfp4-ConvertImage.jpg" alt="" />
+            <img src="pfp4.jpg" alt="" />
           </div>
 
           <div className="jumbotext">

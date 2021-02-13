@@ -13,16 +13,19 @@
   width: 70%;
   background-color: $primarycolor;
   position: absolute;
+  
   // border-radius: 8px;
   padding: 4px;
-
+  padding-bottom: 10px;
+  @include bottomBorderWhite();
   .skill-title {
-    padding-bottom: 6px;
-    border-bottom: 1px groove white;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    // border-bottom: 1px groove white;
   }
-  
+
   // border: 1px solid $ternarycolor;
-//   box-shadow: 0 4px 8px 0 $ternarycolor, 0 6px 20px 0 $ternarycolor;
+  //   box-shadow: 0 4px 8px 0 $ternarycolor, 0 6px 20px 0 $ternarycolor;
 }
 
 @mixin subCard {
@@ -34,17 +37,26 @@
   height: 50%;
   position: absolute;
   background-color: $primarycolor;
+  // border-bottom: 1px solid white;
   // border-radius: 8px;
   // border: 1px solid $ternarycolor;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  .sklearn-icon{
-
+  .sklearn-icon {
     height: 48px;
     width: 89px;
   }
-  .octave-icon{
+  .octave-icon {
+    height: 48px;
+    width: 48px;
+  }
 
+  .react-logo {
+    height: 48px;
+    width: 48px;
+  }
+
+  .figma-logo {
     height: 48px;
     width: 48px;
   }
@@ -54,14 +66,17 @@
   padding-left: 10%;
   padding-right: 10%;
   height: 40%;
+  
+
 
   .skills-heading {
     background-color: $primarycolor;
-    padding: 5px;
+    padding: 7px;
     margin-left: 40%;
     margin-right: 40%;
     display: block;
     text-align: center;
+    @include bottomBorderWhite();
   }
 
   .skills-cards-container {
@@ -78,13 +93,12 @@
         padding-right: 15%;
         top: 0px;
         left: 0px;
+        padding-left: 10px;
       }
       .sub-card {
         @include subCard();
         bottom: 54px;
         right: 15%;
-         
-        
       }
     }
 
@@ -96,48 +110,47 @@
         top: 0px;
         right: 0px;
         padding-left: 15%;
+        padding-right: 10px;
+
       }
       .sub-card {
         @include subCard();
         bottom: 54px;
         left: 15%;
-
-        
-        
       }
     }
 
     .card-container-bottom-left {
-        @include cardContainer();
-        .main-card {
-          @include mainCard();
-          padding-right: 15%;
-          bottom: 0px;
-          left: 0px;
-        }
-        .sub-card {
-          @include subCard();
-          top: 54px;
-          right: 15%;
-          
-        }
+      @include cardContainer();
+      .main-card {
+        @include mainCard();
+        padding-right: 15%;
+        bottom: 0px;
+        left: 0px;
+        padding-left: 10px;
       }
+      .sub-card {
+        @include subCard();
+        top: 54px;
+        right: 15%;
+      }
+    }
 
-      .card-container-bottom-right {
-        @include cardContainer();
-        .main-card {
-          @include mainCard();
-          padding-left: 15%;
-          text-align: right;
-          bottom: 0px;
-          right: 0px;
-        }
-        .sub-card {
-          @include subCard();
-          top: 54px;
-          left: 15%;
-          
-        }
+    .card-container-bottom-right {
+      @include cardContainer();
+      .main-card {
+        @include mainCard();
+        padding-left: 15%;
+        text-align: right;
+        bottom: 0px;
+        right: 0px;
+        padding-right: 10px;
       }
+      .sub-card {
+        @include subCard();
+        top: 54px;
+        left: 15%;
+      }
+    }
   }
 }

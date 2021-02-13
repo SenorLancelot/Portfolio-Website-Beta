@@ -11,18 +11,18 @@ function NavbarComponent() {
         <div className="nav-left-items">
           <Navbar.Brand href="#home">
             
-            Amarendra Shendkar
+            <h4 className="nav-name underline--magical">Amarendra Shendkar</h4>
           </Navbar.Brand>
         </div>
         <div className="nav-right-items">
           <div id="navbar-button-1 nav-btn">
-          <Button variant=""><img className="nav-icon" src="https://img.icons8.com/nolan/64/new-contact.png"/></Button>
+          <Button variant=""><img className="nav-icon" src="https://img.icons8.com/fluent/48/000000/project.png"/></Button>
           </div>
           <div id="navbar-button-2 nav-btn">
-          <Button variant=""><img className="nav-icon" src="https://img.icons8.com/nolan/64/project.png"/></Button>
+          <Button variant=""><img className="nav-icon" src="https://img.icons8.com/color/48/000000/saving-book.png"/></Button>
           </div>
           <div id="navbar-button-3 nav-btn">
-          <Button variant=""><img className="nav-icon" src="https://img.icons8.com/nolan/50/school.png"/></Button>
+          <Button variant=""><img className="nav-icon" src="https://img.icons8.com/fluent/48/000000/phone-office.png"/></Button>
           </div>
         </div>
       {/* </div> */}

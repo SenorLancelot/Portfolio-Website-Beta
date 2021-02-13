@@ -9,8 +9,8 @@
   color: white;
   padding-right: 10%;
   padding-left: 10%;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .container {
@@ -19,6 +19,11 @@
 
 .navbar-brand {
   color: white;
+}
+
+.navbar-brand .nav-name {
+  font-size: 80x;
+  margin-bottom: 0;
 }
 
 .navbar-brand img {
@@ -39,6 +44,20 @@
 
 .nav-right-items .btn {
   background-color: #0A192F;
+}
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 88%;
+  -webkit-transition: background-size 0.25s ease-in;
+  transition: background-size 0.25s ease-in;
+}
+
+.underline--magical:hover {
+  color: black;
+  background-size: 100% 88%;
 }
 
 .jumbotron {
@@ -86,12 +105,12 @@
   height: 150px;
   background-color: #0A192F;
   margin: 0;
+  border-bottom: 1px solid gray;
 }
 
 .jumbo-container .ribbon img {
-  border: 0;
-  border-style: solid;
-  border-color: black;
+  border-top: 1px solid white;
+  border-bottom: 1px solid gray;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -99,7 +118,6 @@
 .jumbo-container .ribbon .jumbotext {
   padding-left: 20px;
   padding-right: 10px;
-  border-left: 1px groove white;
 }
 
 .skills-container {
@@ -110,11 +128,12 @@
 
 .skills-container .skills-heading {
   background-color: #0A192F;
-  padding: 5px;
+  padding: 7px;
   margin-left: 40%;
   margin-right: 40%;
   display: block;
   text-align: center;
+  border-bottom: 1px solid gray;
 }
 
 .skills-container .skills-cards-container {
@@ -149,14 +168,17 @@
   background-color: #0A192F;
   position: absolute;
   padding: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
   padding-right: 15%;
   top: 0px;
   left: 0px;
+  padding-left: 10px;
 }
 
 .skills-container .skills-cards-container .card-container-top-left .main-card .skill-title {
-  padding-bottom: 6px;
-  border-bottom: 1px groove white;
+  padding-top: 2px;
+  padding-bottom: 4px;
 }
 
 .skills-container .skills-cards-container .card-container-top-left .sub-card {
@@ -191,6 +213,16 @@
   width: 48px;
 }
 
+.skills-container .skills-cards-container .card-container-top-left .sub-card .react-logo {
+  height: 48px;
+  width: 48px;
+}
+
+.skills-container .skills-cards-container .card-container-top-left .sub-card .figma-logo {
+  height: 48px;
+  width: 48px;
+}
+
 .skills-container .skills-cards-container .card-container-top-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,15 +242,18 @@
   background-color: #0A192F;
   position: absolute;
   padding: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
   text-align: right;
   top: 0px;
   right: 0px;
   padding-left: 15%;
+  padding-right: 10px;
 }
 
 .skills-container .skills-cards-container .card-container-top-right .main-card .skill-title {
-  padding-bottom: 6px;
-  border-bottom: 1px groove white;
+  padding-top: 2px;
+  padding-bottom: 4px;
 }
 
 .skills-container .skills-cards-container .card-container-top-right .sub-card {
@@ -253,6 +288,16 @@
   width: 48px;
 }
 
+.skills-container .skills-cards-container .card-container-top-right .sub-card .react-logo {
+  height: 48px;
+  width: 48px;
+}
+
+.skills-container .skills-cards-container .card-container-top-right .sub-card .figma-logo {
+  height: 48px;
+  width: 48px;
+}
+
 .skills-container .skills-cards-container .card-container-bottom-left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -272,14 +317,17 @@
   background-color: #0A192F;
   position: absolute;
   padding: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
   padding-right: 15%;
   bottom: 0px;
   left: 0px;
+  padding-left: 10px;
 }
 
 .skills-container .skills-cards-container .card-container-bottom-left .main-card .skill-title {
-  padding-bottom: 6px;
-  border-bottom: 1px groove white;
+  padding-top: 2px;
+  padding-bottom: 4px;
 }
 
 .skills-container .skills-cards-container .card-container-bottom-left .sub-card {
@@ -314,6 +362,16 @@
   width: 48px;
 }
 
+.skills-container .skills-cards-container .card-container-bottom-left .sub-card .react-logo {
+  height: 48px;
+  width: 48px;
+}
+
+.skills-container .skills-cards-container .card-container-bottom-left .sub-card .figma-logo {
+  height: 48px;
+  width: 48px;
+}
+
 .skills-container .skills-cards-container .card-container-bottom-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -333,15 +391,18 @@
   background-color: #0A192F;
   position: absolute;
   padding: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
   padding-left: 15%;
   text-align: right;
   bottom: 0px;
   right: 0px;
+  padding-right: 10px;
 }
 
 .skills-container .skills-cards-container .card-container-bottom-right .main-card .skill-title {
-  padding-bottom: 6px;
-  border-bottom: 1px groove white;
+  padding-top: 2px;
+  padding-bottom: 4px;
 }
 
 .skills-container .skills-cards-container .card-container-bottom-right .sub-card {
@@ -372,6 +433,16 @@
 }
 
 .skills-container .skills-cards-container .card-container-bottom-right .sub-card .octave-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.skills-container .skills-cards-container .card-container-bottom-right .sub-card .react-logo {
+  height: 48px;
+  width: 48px;
+}
+
+.skills-container .skills-cards-container .card-container-bottom-right .sub-card .figma-logo {
   height: 48px;
   width: 48px;
 }
