@@ -446,4 +446,84 @@
   height: 48px;
   width: 48px;
 }
+
+.projects-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 40%;
+}
+
+.projects-container .projects-heading {
+  background-color: #0A192F;
+  padding: 7px;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.projects-container .project-tiles-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 550px;
+  padding: 30px 0px 0px 0px;
+}
+
+.projects-container .project-tiles-container .project-tile {
+  height: 100%;
+  width: 33.33%;
+}
+
+.projects-container .project-tiles-container .project-tile .project-image {
+  height: 35%;
+}
+
+.projects-container .project-tiles-container .project-tile .middle-line {
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects-container .project-tiles-container .project-tile .middle-line .line {
+  height: 100%;
+  width: 2px;
+  background-color: gray;
+}
+
+.projects-container .project-tiles-container .project-tile .bottom-line {
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects-container .project-tiles-container .project-tile .bottom-line .line {
+  height: 100%;
+  width: 2px;
+  background-color: gray;
+}
+
+.projects-container .project-tiles-container .project-tile .project-info {
+  height: 30%;
+}
 /*# sourceMappingURL=styles.css.map */

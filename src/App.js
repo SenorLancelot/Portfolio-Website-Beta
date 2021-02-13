@@ -3,13 +3,15 @@ import "./App.css";
 import NavbarComponent from "./components/NavbarComponent";
 import JumbotronComp from "./components/JumbotronComp";
 import HomeComponent from './components/HomeComponent';
+import ProjectsComponent from './components/ProjectsComponent';
 
 function App() {
   return (
     <>
       <NavbarComponent />
       <JumbotronComp />
-      <HomeComponent/>
+      {/* <HomeComponent/> */}
+      <ProjectsComponent/>
     </>
   );
 }
