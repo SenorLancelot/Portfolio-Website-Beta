@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "../assets/stylesheets/styles.css";
 import image1 from "../assets/images/mask1.jfif";
@@ -15,7 +16,7 @@ function ProjectsComponent() {
           <div className="project-image p1">
             <img src={image1} className="image img-1" alt="" />
             <div className="middle-link-1 middle-links">
-              <a href="">
+              <a href="https://github.com/SenorLancelot/FaceMaskDetection-MobileNetV2-">
                 <img src="https://img.icons8.com/fluent/50/000000/github.png" />
               </a>
             </div>
@@ -39,7 +40,7 @@ function ProjectsComponent() {
           <div className="project-image p2">
             <img src={image2} className="image img-2" alt="" />
             <div className="middle-link-2 middle-links">
-              <a href="">
+              <a href="https://github.com/SenorLancelot?tab=repositories">
                 <img src="https://img.icons8.com/fluent/50/000000/github.png" />
               </a>
             </div>
@@ -63,7 +64,7 @@ function ProjectsComponent() {
           <div className="project-image p3">
             <img src={image3} className="image img-3" alt="" />
             <div className="middle-link-3 middle-links">
-              <a href="">
+              <a href="https://github.com/jayeshbhole/Project-Flow">
                 <img src="https://img.icons8.com/fluent/50/000000/github.png" />
               </a>
             </div>

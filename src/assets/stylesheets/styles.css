@@ -473,7 +473,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 550px;
-  padding: 30px 0px 0px 0px;
+  padding: 60px 0px 0px 0px;
 }
 
 .projects-container .project-tiles-container .project-tile {
@@ -562,6 +562,7 @@
   transition: 0.5s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  border-bottom: 1px solid gray;
 }
 
 .projects-container .project-tiles-container .project-tile .project-image .middle-links {
