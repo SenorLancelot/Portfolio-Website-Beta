@@ -7,7 +7,7 @@ function JumbotronComp() {
     <Jumbotron fluid>
       <div className="jumbo-container">
         <div className="ribbon">
-          <div>
+          <div >
             <img src="pfp4.jpg" alt="" />
           </div>
 
