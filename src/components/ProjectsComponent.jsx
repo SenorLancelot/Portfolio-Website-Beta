@@ -1,5 +1,8 @@
 import React from "react";
 import "../assets/stylesheets/styles.css";
+import image1 from "../assets/images/mask1.jfif";
+import image2 from "../assets/images/python.jpg";
+import image3 from "../assets/images/projectflow.jpg";
 
 function ProjectsComponent() {
   return (
@@ -10,9 +13,11 @@ function ProjectsComponent() {
       <div className="project-tiles-container">
         <div className="project-tile">
           <div className="project-image p1">
-            <img src="/8.jpg" className="image img-1" alt="" />
+            <img src={image1} className="image img-1" alt="" />
             <div className="middle-link-1 middle-links">
-              <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" />
+              <a href="">
+                <img src="https://img.icons8.com/fluent/50/000000/github.png" />
+              </a>
             </div>
           </div>
           <div className="middle-line">
@@ -32,9 +37,11 @@ function ProjectsComponent() {
         </div>
         <div className="project-tile">
           <div className="project-image p2">
-            <img src="/python.jpg" className="image img-2" alt="" />
+            <img src={image2} className="image img-2" alt="" />
             <div className="middle-link-2 middle-links">
-              <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" />
+              <a href="">
+                <img src="https://img.icons8.com/fluent/50/000000/github.png" />
+              </a>
             </div>
           </div>
           <div className="middle-line">
@@ -54,9 +61,11 @@ function ProjectsComponent() {
         </div>
         <div className="project-tile">
           <div className="project-image p3">
-            <img src="/projectflow.jpg" className="image img-3" alt="" />
+            <img src={image3} className="image img-3" alt="" />
             <div className="middle-link-3 middle-links">
-              <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" />
+              <a href="">
+                <img src="https://img.icons8.com/fluent/50/000000/github.png" />
+              </a>
             </div>
           </div>
           <div className="middle-line">
