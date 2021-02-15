@@ -1,0 +1,47 @@
+.contact-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 40%;
+  margin-top: 50px;
+
+  .contact-heading {
+    background-color: $primarycolor;
+    padding: 7px;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: block;
+    text-align: center;
+    @include bottomBorderWhite();
+  }
+  .contact-main {
+    background-color: $primarycolor;
+    padding: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    margin-top: 40px;
+    .contact-text {
+      width: 100%;
+    }
+    
+    .pro-links {
+      display: flex;
+      width: 50%;
+      margin-top: 10px;
+
+      .linked-in {
+        margin-left: 40px;
+      }
+    }
+
+    .other-links {
+      display: flex;
+      width: 50%;
+      margin-top: 10px;
+
+      .twitter {
+        margin-left: 40px;
+      }
+    }
+  }
+}

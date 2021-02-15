@@ -5,6 +5,7 @@ import JumbotronComp from "./components/JumbotronComp";
 import HomeComponent from './components/HomeComponent';
 import ProjectsComponent from './components/ProjectsComponent';
 import Education from './components/Education';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <JumbotronComp />
       {/* <HomeComponent/> */}
       {/* <ProjectsComponent/> */}
-      <Education/>
+      {/* <Education/> */}
+      <Contact/>
     </>
   );
 }
