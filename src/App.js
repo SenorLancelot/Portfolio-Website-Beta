@@ -4,6 +4,7 @@ import NavbarComponent from "./components/NavbarComponent";
 import JumbotronComp from "./components/JumbotronComp";
 import HomeComponent from './components/HomeComponent';
 import ProjectsComponent from './components/ProjectsComponent';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <NavbarComponent />
       <JumbotronComp />
       {/* <HomeComponent/> */}
-      <ProjectsComponent/>
+      {/* <ProjectsComponent/> */}
+      <Education/>
     </>
   );
 }

@@ -554,10 +554,11 @@
 }
 
 .projects-container .project-tiles-container .project-tile .project-image .image {
-  width: 100%;
+  width: auto;
   height: 100%;
   opacity: 1;
   display: block;
+  margin: auto;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   -webkit-backface-visibility: hidden;
@@ -585,6 +586,69 @@
   height: fit-content;
   margin-left: 10%;
   margin-right: 10%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.education-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 40%;
+  margin-top: 40px;
+}
+
+.college {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  background-color: #0A192F;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 1px solid gray;
+}
+
+.college img {
+  height: 150px;
+  width: 150px;
+  border-radius: 0px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.college div {
+  margin-left: 15px;
+}
+
+.college .college-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.certifications {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 450px;
+  padding: 30px 0px 0px 0px;
+}
+
+.certifications .certification-heading {
+  background-color: #0A192F;
+  padding: 7px;
   text-align: center;
   border-bottom: 1px solid gray;
 }

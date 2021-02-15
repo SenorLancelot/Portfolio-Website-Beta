@@ -95,11 +95,11 @@
         position: relative;
 
         .image {
-          width: 100%;
+          width: auto;
           height: 100%;
           opacity: 1;
           display: block;
-          
+          margin: auto;
           transition: 0.5s ease;
           backface-visibility: hidden;
           @include bottomBorderWhite();

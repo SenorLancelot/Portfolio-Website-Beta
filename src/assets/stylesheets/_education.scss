@@ -1,0 +1,54 @@
+.education-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 40%;
+  margin-top: 40px;
+}
+
+.college {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  // color: white;
+  background-color: $primarycolor;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  // border-radius: 8px;
+  @include bottomBorderWhite();
+
+  img {
+    height: 150px;
+    width: 150px;
+    border-radius: 0px;
+    border-top: 1px solid gray;
+    @include bottomBorderWhite();
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  div {
+    margin-left: 15px;
+  }
+  .college-logo {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 450px;
+  padding: 30px 0px 0px 0px;
+
+  .certification-heading {
+    background-color: $primarycolor;
+    padding: 7px;
+    // margin-left: 40%;
+    // margin-right: 40%;
+    
+    text-align: center;
+    @include bottomBorderWhite();
+  }
+}
