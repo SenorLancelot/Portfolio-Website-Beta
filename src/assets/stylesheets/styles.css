@@ -765,6 +765,13 @@
   width: 100%;
 }
 
+.contact-container .contact-main .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
 .contact-container .contact-main .pro-links {
   display: -webkit-box;
   display: -ms-flexbox;
