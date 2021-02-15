@@ -649,7 +649,89 @@
 .certifications .certification-heading {
   background-color: #0A192F;
   padding: 7px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   text-align: center;
   border-bottom: 1px solid gray;
+}
+
+.certifications .certification-cards {
+  height: 75%;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45%;
+  height: 45%;
+  background-color: #0A192F;
+  border-bottom: 1px solid gray;
+}
+
+.card-container .card-image:hover .card-img {
+  opacity: 0.3;
+}
+
+.card-container .card-image:hover .middle {
+  opacity: 1;
+}
+
+.card-container .card-image {
+  width: 30%;
+  position: relative;
+}
+
+.card-container .card-image img {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  display: block;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.card-container .card-image .middle {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-container .card-image .middle img {
+  height: 48px;
+  width: 48px;
+}
+
+.card-container .certificate-info {
+  margin: 5px 5px 5px 10px;
+  padding-left: 10px;
+  width: 70%;
+  overflow: hidden;
 }
 /*# sourceMappingURL=styles.css.map */

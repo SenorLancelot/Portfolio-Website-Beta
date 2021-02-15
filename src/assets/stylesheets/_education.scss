@@ -47,8 +47,18 @@
     padding: 7px;
     // margin-left: 40%;
     // margin-right: 40%;
-    
+    height: fit-content;
     text-align: center;
     @include bottomBorderWhite();
+  }
+
+  .certification-cards {
+    height: 75%;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
