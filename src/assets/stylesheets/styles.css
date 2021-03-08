@@ -796,4 +796,8 @@
 .contact-container .contact-main .other-links .twitter {
   margin-left: 40px;
 }
+
+body {
+  overflow: hidden;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -3,6 +3,7 @@ import React from "react";
 // import { Container } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 import "../assets/stylesheets/navbarstyle.css";
+import {Link} from 'react-router-dom'
 
 function NavbarComponent() {
   return (
@@ -10,40 +11,40 @@ function NavbarComponent() {
       {/* <div className="navbar-inner"> */}
       <div className="nav-left-items">
         <Navbar.Brand href="#home">
-          <a href="/home">
+          <Link to="/home">
             <h4 className="nav-name underline--magical">Amarendra Shendkar</h4>
-          </a>
+          </Link>
         </Navbar.Brand>
       </div>
       <div className="nav-right-items">
         <div id="navbar-button-1 nav-btn">
           <Button variant="">
-            <a href="/education">
+            <Link to="/education">
               <img
                 className="nav-icon"
                 src="https://img.icons8.com/color/48/000000/saving-book.png"
-              />
-            </a>
+               />
+            </Link>
           </Button>
         </div>
         <div id="navbar-button-2 nav-btn">
           <Button variant="">
-            <a href="/projects">
+            <Link to="/projects">
               <img
                 className="nav-icon"
                 src="https://img.icons8.com/fluent/48/000000/project.png"
               />
-            </a>
+            </Link>
           </Button>
         </div>
         <div id="navbar-button-3 nav-btn">
           <Button variant="">
-            <a href="/contactme">
+            <Link to="/contactme">
               <img
                 className="nav-icon"
                 src="https://img.icons8.com/fluent/48/000000/phone-office.png"
               />
-            </a>
+            </Link>
           </Button>
         </div>
       </div>
